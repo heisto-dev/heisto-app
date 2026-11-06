@@ -1,0 +1,417 @@
+{
+  "generatedAtUtc": "2026-11-06T05:54:54.020Z",
+  "repository": "heisto-app",
+  "scope": "allowlisted source/public evidence; no original Git history",
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 324,
+      "sha256": "67497350b1a44e7c34447b6b726a9c5a64817205aa99644afab62b11a39aa933"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 146,
+      "sha256": "9c45ec79cbc90c774902ddd00ef1188669ef93ad33df6ca2658c39cba93d5b94"
+    },
+    {
+      "path": ".npmrc",
+      "bytes": 25,
+      "sha256": "5f947ee7a93b78e2d3131807d3f9b355b5bb237b9a88b6909113f4a3fb6de740"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 516,
+      "sha256": "0fe95abd80d3181e213903d18cbd8baf6ad3fcd4d50db9792afbaa7b0dca9bb4"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1076,
+      "sha256": "2b2dc5883591645bbc2b3344315e13c3563d3de26a59757a624567d0e9885a4a"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 275,
+      "sha256": "36a26f7e3bc712ecaf3c8965dc0d5a523b5c8ac1bbc160c89e6a6097e82507d9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3543,
+      "sha256": "bbfba02c8f0087f4ac441c3676272b0fa63486da077fbef71992cfa862c9e663"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 734,
+      "sha256": "66cb0d8fb12233dd439055d05c98dff928e231ab57892b66147d6acc21482c2c"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1276,
+      "sha256": "672dff0969ab3dc986423419c5db5759d4a128532dfbde6cf347e77fcd13977b"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 86933,
+      "sha256": "6f999bdae1ba9c2f6ffada0bf84e8b2949be2aceaa0093ae72ed50b254a28861"
+    },
+    {
+      "path": "programs/heisto/tests/fixtures/ed25519_ix.hex",
+      "bytes": 755,
+      "sha256": "183fbb4f8fca2c9dd6e55b42175742586f519133a0b00377c11ed947e8abc9f5"
+    },
+    {
+      "path": "server/scripts/migrate.ts",
+      "bytes": 196,
+      "sha256": "e273df44f2864d37c373b07d7a1b20341b2bbe05691df11c890f9753115fa6b4"
+    },
+    {
+      "path": "server/scripts/preflight.ts",
+      "bytes": 5401,
+      "sha256": "81630c114b168d56d7e529041ff3104fec29221b85473747fb8de684c72f30fe"
+    },
+    {
+      "path": "server/sql/001_init.sql",
+      "bytes": 3329,
+      "sha256": "a4aedc8cc65117f0b28e3dc1b60198b55c7d6c998c3b8334b51810de3758c55c"
+    },
+    {
+      "path": "server/sql/002_guard_wallet_usage.sql",
+      "bytes": 550,
+      "sha256": "db4d51e6d5c72dc4a6a1802faba63e2f9abe15dc76c57bb0bf425253ac32f820"
+    },
+    {
+      "path": "server/src/app.ts",
+      "bytes": 36901,
+      "sha256": "f7cc608c44625bb8c6d0cfec1cbf7a5b61b033ba959ca94b9a76cff113f831cd"
+    },
+    {
+      "path": "server/src/config.ts",
+      "bytes": 2377,
+      "sha256": "7779980cb7992c027ee3ffd5025f04dd703b945f1726c6fddcaf0a67432d5859"
+    },
+    {
+      "path": "server/src/db.ts",
+      "bytes": 1133,
+      "sha256": "9db41090433f83daa6828d7ae545326aa504a510449d65d1c76793d40beb7572"
+    },
+    {
+      "path": "server/src/index.ts",
+      "bytes": 3019,
+      "sha256": "2b988d4eeb6ad99167de1dc898284f49f56f2cf58ef53e47239229a0c50a69c6"
+    },
+    {
+      "path": "server/src/jury.ts",
+      "bytes": 982,
+      "sha256": "6c57401dcb47a98d558274b20706e58f590e51eec0c2c9b090241a0be3a36915"
+    },
+    {
+      "path": "server/src/lib/chain.ts",
+      "bytes": 7697,
+      "sha256": "5c09dc0cd23ad3ab707dd15ac6a612a5e2ae0cd5b90789f941a5ba65c2c733f8"
+    },
+    {
+      "path": "server/src/lib/crypto.ts",
+      "bytes": 2108,
+      "sha256": "ab7e15a255e0ce19bf25b35d1a17fdd4617c30b047a751172008e30a76654fe9"
+    },
+    {
+      "path": "server/src/lib/deployment-cost.ts",
+      "bytes": 773,
+      "sha256": "a470da6501373a83a80e9b91a5e98519fead779d79d86f1526d552fccae5a738"
+    },
+    {
+      "path": "server/src/lib/guard-budget.ts",
+      "bytes": 3047,
+      "sha256": "8e5b663b24d67c55d5787f3f946694ecebd5d3c449d756fffd296c8761ba7714"
+    },
+    {
+      "path": "server/src/lib/guard.ts",
+      "bytes": 4339,
+      "sha256": "82bac7f2ae87639620d33090d2875cc19cbba2d1591d57c05e3ee0f84ad35cab"
+    },
+    {
+      "path": "server/src/lib/judge.ts",
+      "bytes": 7334,
+      "sha256": "dfa868aa6d9845d9f900354fc6b923aa057f5c51ff369b6bbeca92ee574382a6"
+    },
+    {
+      "path": "server/src/lib/llm.ts",
+      "bytes": 4487,
+      "sha256": "23227a6f5b14c1e12c7f25e32b583962adfd00e1028ddd673d3d42f878993187"
+    },
+    {
+      "path": "server/src/lib/practice.ts",
+      "bytes": 6895,
+      "sha256": "dac322a5c3b8d0f9dd5f4ad5581ce54329c1c436548fa977419ecddb5089e7bf"
+    },
+    {
+      "path": "server/src/lib/sdk.ts",
+      "bytes": 10535,
+      "sha256": "f15579ca1cbfca5156733735c4443aa598ba18f7f896201813e2b201a18766c4"
+    },
+    {
+      "path": "server/src/read-only.ts",
+      "bytes": 2066,
+      "sha256": "747b9288c0c902059d244cc5dee6d4d19cc643431c0c8dc039b324fcd0136d01"
+    },
+    {
+      "path": "server/test/api.test.ts",
+      "bytes": 11994,
+      "sha256": "b1daabb481378dac15fd2f86319cfbfffe9050418c00d1092898bff24294c799"
+    },
+    {
+      "path": "server/test/deployment-cost.test.ts",
+      "bytes": 1305,
+      "sha256": "c1d7c026a723d5c5422cc91bad761905080d7bb4e5ef074118a9d16662661f16"
+    },
+    {
+      "path": "server/test/fake-chain.ts",
+      "bytes": 7336,
+      "sha256": "bbe2f317ed39d3815a2c31f9cff6e28571718b647bf8e8fb5a5977540b946f06"
+    },
+    {
+      "path": "server/test/guard-security.test.ts",
+      "bytes": 9312,
+      "sha256": "5116b4ed9d6d52bec405e185a8fe17ddc3ab16ae7d6921533120404da61d57fd"
+    },
+    {
+      "path": "server/test/judge.test.ts",
+      "bytes": 3648,
+      "sha256": "078f52597855810edbbba9fb31a4f03f2d2e1d9a0b204a90b087037e93ccbb81"
+    },
+    {
+      "path": "server/test/llm.test.ts",
+      "bytes": 3592,
+      "sha256": "e4a0066a38246d958925bbe52f7983396a7305c8cf13e717832ccdac0563f1f5"
+    },
+    {
+      "path": "server/test/non-financial.test.ts",
+      "bytes": 11680,
+      "sha256": "6e216cc59faeabed92f5136f7df84e09df32d6d2b5b63ba3baa90c053a5651cf"
+    },
+    {
+      "path": "server/test/read-only.test.ts",
+      "bytes": 5355,
+      "sha256": "4a999205998a4618b1f2cb90706e93379d7193c76040250132f475ad647925e1"
+    },
+    {
+      "path": "server/test/sdk.test.ts",
+      "bytes": 4403,
+      "sha256": "6efc55c22fef39fd9139e31ffcda34902fb0a82bf74643f5e36645c61e7adc3e"
+    },
+    {
+      "path": "server/tsconfig.json",
+      "bytes": 319,
+      "sha256": "421216cec5cea9cc1a4efe270c73f32024a01c143ac1e6c518bca432014b66d9"
+    },
+    {
+      "path": "server/tsconfig.preflight.json",
+      "bytes": 153,
+      "sha256": "8dec763047cec5e98633fd113cc14210b853670ec8893cb3be94833ee7ebb95c"
+    },
+    {
+      "path": "web/apple-touch-icon.png",
+      "bytes": 13592,
+      "sha256": "9e232659e50b47e4bddb9a8e01720ebdde0e5e4a1290ce5fcbb130bc7bc72557"
+    },
+    {
+      "path": "web/assets/avatar-attacker.webp",
+      "bytes": 11416,
+      "sha256": "1232b77856e02e5aa174e719416bfeafa1e219e9d240f8fd4daef3ac5d7e19b1"
+    },
+    {
+      "path": "web/assets/avatar-care-agent.webp",
+      "bytes": 11634,
+      "sha256": "87cd0577c92733c6db96e557a2c67d87b98d58f37db7a8a77f4b52f93904e30b"
+    },
+    {
+      "path": "web/assets/avatar-default.webp",
+      "bytes": 10680,
+      "sha256": "dc862ca8ed54ebfbc978690be79aa63d79a2c803d5783e7c0bd6215d81e4d958"
+    },
+    {
+      "path": "web/assets/avatar-judge.webp",
+      "bytes": 11352,
+      "sha256": "81fec5af12f711e53cd1eaf05bab736abb9200086695580a4a8283ace7406670"
+    },
+    {
+      "path": "web/assets/avatar-night-guard.webp",
+      "bytes": 11316,
+      "sha256": "8dd02f2b177c0b2beba35d939b09fb40fa7793ce9be5aa99b4eac29f880f8136"
+    },
+    {
+      "path": "web/assets/avatar-oracle-nine.webp",
+      "bytes": 12240,
+      "sha256": "f59c4d66ae110e34b001b09d4fd2e87614379d7a99e36caf65dbde0f4766e655"
+    },
+    {
+      "path": "web/assets/avatar-polite-butler.webp",
+      "bytes": 10650,
+      "sha256": "15d6cec6d2e11d391765ad8c1c6a0cee45be5bb269749ab2d63df32f6b4b7738"
+    },
+    {
+      "path": "web/assets/avatar-treasury-bot.webp",
+      "bytes": 12344,
+      "sha256": "6894b497ffa63b0080ef9673ab660d171b34efb5a63b4890face7fdad38eeb19"
+    },
+    {
+      "path": "web/assets/avatar-vault-keeper.webp",
+      "bytes": 11898,
+      "sha256": "8e9655e627fadb785bc5033565c99de6ded1d517b2d51ae59d8c1d10b0e1f12d"
+    },
+    {
+      "path": "web/assets/icon-arena.webp",
+      "bytes": 6174,
+      "sha256": "b3bd1e5756bdb8749328da4fdbe83cbe57bacae1d6ec2f61b55cc4982aadd5dd"
+    },
+    {
+      "path": "web/assets/icon-attack.webp",
+      "bytes": 6428,
+      "sha256": "378f51efc5a3314bf1dd0658902f2d033dc849ae53d0db5b7e4ce5eae09da8e2"
+    },
+    {
+      "path": "web/assets/icon-breach.webp",
+      "bytes": 5656,
+      "sha256": "a21d1d30e094687d3d70fa4b3a9d6a0696e9c7906fe9331ed09f6e5b4b0f3d6a"
+    },
+    {
+      "path": "web/assets/icon-claim.webp",
+      "bytes": 5640,
+      "sha256": "600692a0de629ccb41b7fc202c4c001c652cdb0f755b71f7a3f7d0e93fa9a58d"
+    },
+    {
+      "path": "web/assets/icon-copy.webp",
+      "bytes": 4910,
+      "sha256": "528020379ce3f0186425bf03f83b3dd51948dd292aefeb124f8a740cc11e33a1"
+    },
+    {
+      "path": "web/assets/icon-deploy.webp",
+      "bytes": 5552,
+      "sha256": "57170613e66f58fcc639e1f3ebb33b810bfcac58719dd4dfa4fc6cd391b98228"
+    },
+    {
+      "path": "web/assets/icon-guard.webp",
+      "bytes": 5612,
+      "sha256": "7d07b2b7ab2da7ce47380cb92ed4d2d3ba4986d0ededfcb7f03364dbbd96267a"
+    },
+    {
+      "path": "web/assets/icon-held.webp",
+      "bytes": 5170,
+      "sha256": "96e037d64b54f82bd4ad514d6771d3dc4fca71005d925ae02e16c92fa0ba1c9d"
+    },
+    {
+      "path": "web/assets/icon-judge.webp",
+      "bytes": 5550,
+      "sha256": "01f3fc85cc673ad132192a71c3837908ff8b7261021a5a8a9617be3583c2cd8c"
+    },
+    {
+      "path": "web/assets/icon-leaderboard.webp",
+      "bytes": 5720,
+      "sha256": "9b989b72df9741c4f9cd1b2b2000f312e279e5ce3bcd66c08d6bd8e4f4bd3529"
+    },
+    {
+      "path": "web/assets/icon-pool.webp",
+      "bytes": 6834,
+      "sha256": "91f7221ef8fbdea41561d50a455ab8e2dad4bf1c5b7d42b680e15ede375c283e"
+    },
+    {
+      "path": "web/assets/icon-practice.webp",
+      "bytes": 5684,
+      "sha256": "c1f9294d0903aa909f603d3b1ba25e486b3d702cf77aae1d1e1cb7abcba1a6fa"
+    },
+    {
+      "path": "web/assets/icon-profile.webp",
+      "bytes": 5426,
+      "sha256": "771ea9b1fd83ec53360186bb499db97d24e073b966eb9cc1c32343efd09bccb8"
+    },
+    {
+      "path": "web/assets/icon-shield.webp",
+      "bytes": 6202,
+      "sha256": "552481a390347b84e51a0e979a13c4fb4ecc9568bcd5691c791b0035ad732d6b"
+    },
+    {
+      "path": "web/assets/icon-templates.webp",
+      "bytes": 6538,
+      "sha256": "e418165fcf4c3a92f88a109d75c199a64c5b6e0bfc0beea0bb4b851e3651e10d"
+    },
+    {
+      "path": "web/assets/icon-wallet.webp",
+      "bytes": 5458,
+      "sha256": "e616a6a7ea3ff738e6f4f2f67bc5251e642af357fae7e8b65d39cf3bdd0498b1"
+    },
+    {
+      "path": "web/favicon-32.png",
+      "bytes": 1833,
+      "sha256": "1f4cdbebfefb6468e69176da73cf2424dc75f320e4fb546f6c1e580c62d3866b"
+    },
+    {
+      "path": "web/favicon-64.png",
+      "bytes": 4946,
+      "sha256": "81bcdd6d4eb0090d006592c6e4fab68f2770cd438bfca82a4ba6ce9c993eff50"
+    },
+    {
+      "path": "web/favicon.ico",
+      "bytes": 6093,
+      "sha256": "34bfba9e750e14d52509de345d58abba4c783b4d0fae528bcdccf142f2673a30"
+    },
+    {
+      "path": "web/hand-human.webp",
+      "bytes": 69252,
+      "sha256": "df9946f8d619065d93a9847849ab42417398b26eb5d5334fea40262ef3ef2ddb"
+    },
+    {
+      "path": "web/hand-robot.webp",
+      "bytes": 104114,
+      "sha256": "514246a095a813e296c8e23f6e6abd1c62d373ce6ff7a878f69de7ca4a8ca3ee"
+    },
+    {
+      "path": "web/icon-192.png",
+      "bytes": 14429,
+      "sha256": "13f5586ac67c1a63f3faada5e6ea9ecb05325d58ad18d85ac01ac2395d5bd1bb"
+    },
+    {
+      "path": "web/icon-512.png",
+      "bytes": 69924,
+      "sha256": "4b5270ff97816fbecb74fd5032255e0ed00d0f6a8334633cc0b8131cdff84979"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 130954,
+      "sha256": "6284bf4f1ece037f7e4a5096ccd1ce2891688146cf9fc908424fd6ef2c20797f"
+    },
+    {
+      "path": "web/logo-claude.png",
+      "bytes": 14449,
+      "sha256": "262ccdc6f600bfa42eb587f9f6726c97a8595a471f60ac38e93a8072bb4c76ae"
+    },
+    {
+      "path": "web/logo-gpt.png",
+      "bytes": 6474,
+      "sha256": "a542b7383728cc686a256a757b14d30dfc3272dc6bca9a72c84cbc62feab0699"
+    },
+    {
+      "path": "web/logo-heisto-96.png",
+      "bytes": 8825,
+      "sha256": "8968bc659997ee42b842107887176fe073969c43d7e8a192ae7fb18e32cef185"
+    },
+    {
+      "path": "web/logo-heisto.png",
+      "bytes": 39144,
+      "sha256": "7e4edbd0957d9133a1de45360405a119a29f1d3d0179d94acee4fcb6b14065ba"
+    },
+    {
+      "path": "web/logo-llama.png",
+      "bytes": 9689,
+      "sha256": "2a2246dde16bad09ca57fcb342a0ac321cd804379402504079a66b9f70556f54"
+    },
+    {
+      "path": "web/og-image.jpg",
+      "bytes": 76397,
+      "sha256": "a064fb9966d223ecae2ba8d727c8031e504e9c073a5a2389cf4216d12573ea08"
+    },
+    {
+      "path": "web/site.webmanifest",
+      "bytes": 419,
+      "sha256": "4a622c113af37e85e794ed8b6fb35912df1b182f9ddf64156480f801960c63f3"
+    }
+  ]
+}

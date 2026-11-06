@@ -1,0 +1,15 @@
+node_modules/
+dist/
+dist-preflight/
+coverage/
+.env
+.env.*
+!.env.example
+*.keypair.json
+*secret*.json
+*.pem
+*.key
+*.log
+target/
+.anchor/
+.DS_Store

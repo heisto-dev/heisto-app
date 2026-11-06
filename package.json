@@ -1,0 +1,48 @@
+{
+  "name": "heisto-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.26.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heisto-dev/heisto-app.git"
+  },
+  "bugs": {
+    "email": "support@heisto.xyz"
+  },
+  "homepage": "https://heisto.xyz",
+  "scripts": {
+    "build": "tsc -p server/tsconfig.json && tsc -p server/tsconfig.preflight.json",
+    "typecheck": "tsc -p server/tsconfig.json --noEmit",
+    "test": "vitest run server/test",
+    "start": "cd server && WEB_DIR=../web HOST=0.0.0.0 TZ=UTC node dist/index.js",
+    "migrate": "cd server && tsx scripts/migrate.ts",
+    "preflight": "cd server && tsx scripts/preflight.ts"
+  },
+  "dependencies": {
+    "@fastify/cors": "10.1.0",
+    "@fastify/rate-limit": "10.3.0",
+    "@fastify/static": "10.1.9",
+    "@solana/web3.js": "1.99.0",
+    "bs58": "6.0.0",
+    "dotenv": "16.6.1",
+    "fastify": "5.12.8",
+    "pg": "8.23.1",
+    "tweetnacl": "1.0.3",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.2.17",
+    "@types/node": "22.20.5",
+    "@types/pg": "8.23.1",
+    "litesvm": "1.6.2",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3",
+    "vitest": "5.1.0"
+  }
+}
